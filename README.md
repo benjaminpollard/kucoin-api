@@ -521,7 +521,7 @@ _Create an order to sell 5 GAS for NEO at the specified price:_
 kc.createWithdrawal({
   pair: 'GAS-NEO',
   amount: 5,
-  price: 0.608004
+  price: 0.608004,
   type: 'SELL'
 }).then(console.log).catch(console.error)
 
